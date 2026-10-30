@@ -1,21 +1,19 @@
----
----
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sands Time Management</title>
-    
-    <link rel="stylesheet" href="style.css"/>
+
+    <link rel="stylesheet" href="style.css" />
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
 </head>
 
 
 <body>
-    {% include header.html %}
-    
+    <!-- {% include header.html %} -->
+
     <div class="content">
         <canvas id="simulation"> </canvas>
 
@@ -36,12 +34,17 @@
         <div class="modal-content">
             <h2>What is Sands?</h2>
             <p><b>Sands</b> is a Time-Management tool where every second is visualized as a <b>grain of sand</b>.</p>
-                
-            <p>It's a tool I made for myself to be more concious of how the way I spend my time. Personally, I use <span style="color: #27cbf3;">blue</span> for work, <span style="color: #f91d5a;">red</span> for fun, and <span style="color: #2ded7a;">green</span> for those necessary breaks like eating or walks.</p>
 
-            <p>It's pretty open ended. You can use it for studying, cooking, or just to feel that nice existential dread as the sands fall down.</p>
+            <p>It's a tool I made for myself to be more concious of how the way I spend my time. Personally, I use <span
+                    style="color: #27cbf3;">blue</span> for work, <span style="color: #f91d5a;">red</span> for fun, and
+                <span style="color: #2ded7a;">green</span> for those necessary breaks like eating or walks.
+            </p>
 
-            <p>Personally, I use the Sands as way to analyze my time use. After all, every one of those seconds is precious...</p>
+            <p>It's pretty open ended. You can use it for studying, cooking, or just to feel that nice existential dread
+                as the sands fall down.</p>
+
+            <p>Personally, I use the Sands as way to analyze my time use. After all, every one of those seconds is
+                precious...</p>
 
         </div>
     </div>
@@ -71,9 +74,10 @@
             </button>
         </div>
     </div>
-    
+
     <script src="scripts/prevent-field-enter.js"></script>
     <script src="scripts/sand-simulation.js"></script>
 
 </body>
+
 </html>
